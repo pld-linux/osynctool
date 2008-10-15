@@ -1,12 +1,12 @@
 Summary:	OpenSync data synchronization commandline programs
 Summary(pl.UTF-8):	Programy do synchronizacji danych OpenSync
 Name:		msynctool
-Version:	0.36
-Release:	1
+Version:	0.37
+Release:	0.1
 License:	GPL
 Group:		Applications
-Source0:	http://opensync.org/download/releases/0.36/msynctool-0.36.tar.bz2
-# Source0-md5:	9ef1c03d1e087493dbca67dabb612e6b
+Source0:	http://opensync.org/download/releases/%{version}/%{name}-%{version}.tar.bz2
+# Source0-md5:	417d582a1c2ac1049b41557ee5664f3e
 URL:		http://opensync.org/
 BuildRequires:	cmake
 BuildRequires:	libopensync-devel
