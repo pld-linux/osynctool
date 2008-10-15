@@ -9,7 +9,7 @@ Source0:	http://opensync.org/download/releases/%{version}/%{name}-%{version}.tar
 # Source0-md5:	417d582a1c2ac1049b41557ee5664f3e
 URL:		http://opensync.org/
 BuildRequires:	cmake
-BuildRequires:	libopensync-devel
+BuildRequires:	libopensync-devel >= 1:0.37
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
