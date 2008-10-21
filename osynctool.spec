@@ -10,6 +10,7 @@ Source0:	http://opensync.org/download/releases/%{version}/%{name}-%{version}.tar
 URL:		http://opensync.org/
 BuildRequires:	cmake
 BuildRequires:	libopensync-devel >= 1:0.37
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
