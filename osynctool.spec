@@ -2,7 +2,7 @@ Summary:	OpenSync data synchronization commandline program
 Summary(pl.UTF-8):	Programy do synchronizacji danych OpenSync
 Name:		osynctool
 Version:	0.39
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications
 Source0:	http://opensync.org/download/releases/%{version}/%{name}-%{version}.tar.bz2
